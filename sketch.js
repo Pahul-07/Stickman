@@ -44,8 +44,6 @@ function setup(){
 
 function draw(){
   background(255);
-//textSize(20)
-//text(mouseX+":"+mouseY,100,50)
  imageMode(CENTER);
 
   stand1.display();
@@ -67,7 +65,6 @@ function draw(){
   text("1",490,535);
   text("2",892,340);
   text("3",650,186);
-  text(mouseX+":"+mouseY,70,100)
 
   imageMode(CENTER);
   image(polygonImg, polygon.position.x, polygon.position.y, 80, 10);
